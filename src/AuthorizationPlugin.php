@@ -19,7 +19,7 @@ use Dot\Controller\Plugin\PluginInterface;
  */
 class AuthorizationPlugin implements PluginInterface
 {
-    /** @var AuthorizationInterface  */
+    /** @var AuthorizationInterface */
     protected $authorization;
 
     /**
