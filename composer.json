@@ -32,16 +32,6 @@
       "DotTest\\Controller\\Plugin\\Authorization\\": "test/"
     }
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/dotkernel/dot-authorization.git"
-    },
-    {
-      "type": "vcs",
-      "url": "https://github.com/dotkernel/dot-controller.git"
-    }
-  ],
   "extra": {
     "branch-alias": {
       "dev-master": "0.6-dev"
