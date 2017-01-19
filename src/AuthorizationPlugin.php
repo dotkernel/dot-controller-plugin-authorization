@@ -9,7 +9,6 @@
 
 namespace Dot\Controller\Plugin\Authorization;
 
-
 use Dot\Authorization\AuthorizationInterface;
 use Dot\Controller\Plugin\PluginInterface;
 
