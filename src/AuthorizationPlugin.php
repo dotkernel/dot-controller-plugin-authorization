@@ -38,7 +38,7 @@ class AuthorizationPlugin implements PluginInterface
      * @param mixed $context
      * @return bool
      */
-    public function isGranted(string $permission, array $roles = [], mixed $context = null): bool
+    public function isGranted(string $permission, array $roles = [], $context = null): bool
     {
         return $this->authorization->isGranted($permission, $roles, $context);
     }
