@@ -7,6 +7,8 @@
  * Time: 10:17 PM
  */
 
+declare(strict_types = 1);
+
 namespace Dot\Controller\Plugin\Authorization;
 
 use Dot\Authorization\AuthorizationInterface;
@@ -33,10 +35,10 @@ class AuthorizationPlugin implements PluginInterface
     /**
      * @param $permission
      * @param array $roles
-     * @param null $context
+     * @param mixed $context
      * @return bool
      */
-    public function isGranted($permission, array $roles = [], $context = null)
+    public function isGranted(string $permission, array $roles = [], $context = null): bool
     {
         return $this->authorization->isGranted($permission, $roles, $context);
     }

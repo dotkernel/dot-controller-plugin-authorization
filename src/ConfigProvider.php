@@ -7,6 +7,8 @@
  * Time: 10:17 PM
  */
 
+declare(strict_types = 1);
+
 namespace Dot\Controller\Plugin\Authorization;
 
 use Dot\Controller\Plugin\Authorization\Factory\AuthorizationPluginFactory;
@@ -17,7 +19,7 @@ use Dot\Controller\Plugin\Authorization\Factory\AuthorizationPluginFactory;
  */
 class ConfigProvider
 {
-    public function __invoke()
+    public function __invoke(): array
     {
         return [
             'dot_controller' => [
