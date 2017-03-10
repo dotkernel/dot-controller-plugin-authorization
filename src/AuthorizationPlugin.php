@@ -1,10 +1,8 @@
 <?php
 /**
- * @copyright: DotKernel
- * @library: dotkernel/dot-controller-plugin-authorization
- * @author: n3vrax
- * Date: 9/22/2016
- * Time: 10:17 PM
+ * @see https://github.com/dotkernel/dot-controller-plugin-authorization/ for the canonical source repository
+ * @copyright Copyright (c) 2017 Apidemia (https://www.apidemia.com)
+ * @license https://github.com/dotkernel/dot-controller-plugin-authorization/blob/master/LICENSE.md MIT License
  */
 
 declare(strict_types = 1);
