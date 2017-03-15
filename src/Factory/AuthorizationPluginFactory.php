@@ -11,7 +11,7 @@ namespace Dot\Controller\Plugin\Authorization\Factory;
 
 use Dot\Authorization\AuthorizationInterface;
 use Dot\Controller\Plugin\Authorization\AuthorizationPlugin;
-use Interop\Container\ContainerInterface;
+use Psr\Container\ContainerInterface;
 
 /**
  * Class AuthorizationPluginFactory
