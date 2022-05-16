@@ -2,6 +2,13 @@
 
 Authorization controller plugin
 
+![OSS Lifecycle](https://img.shields.io/osslifecycle/dotkernel/dot-controller-plugin-authorization)
+[![GitHub license](https://img.shields.io/github/license/dotkernel/dot-controller-plugin-authorization)](https://github.com/dotkernel/dot-controller-plugin-authorization/blob/2.0.1/LICENSE.md)
+
+# NOTE
+
+> **dot-controller-plugin-authorization** is **archived** and will receive no further development!
+
 ## Installation
 
 Run the following command
